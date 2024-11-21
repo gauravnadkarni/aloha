@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IBM Plex Mono"; /* Replace with the font's name */
+  src: url("./assets/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./assets/fonts/IBMPlexMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Mono", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  width: 80%;
+}
+
+.swiper-slide-active {
+  width: 80% !important;
+}
+
+.swiper-slide:last-child {
+  width: 100%;
+}

@@ -1,0 +1,91 @@
+{
+  "titleBoxData": {
+    "image": {
+      "small": "/assets/images/small_header.png",
+      "large": "/assets/images/large_header.png"
+    },
+    "text": {
+      "firstLine": "Welcome",
+      "secondLine": "to Hawaii"
+    },
+    "appBarConfig": {
+      "items": [
+        {
+          "title": "Home",
+          "type": "link"
+        },
+        {
+          "title": "Surfing",
+          "type": "link"
+        },
+        {
+          "title": "Hula",
+          "type": "link"
+        },
+        {
+          "title": "Vulcano",
+          "type": "link"
+        },
+        {
+          "title": "Book a trip",
+          "type": "button"
+        }
+      ]
+    }
+  },
+  "highlightsData": [
+    {
+      "image": {
+        "path": "/assets/images/highlight_surfing.png",
+        "alt": "Surfing"
+      },
+      "text": "Best Hawaiian islands for surfing.",
+      "title": "Surfing"
+    },
+    {
+      "image": {
+        "path": "/assets/images/highlight_dance.png",
+        "alt": "Hula"
+      },
+      "text": "Try it yourself.",
+      "title": "Hula"
+    },
+    {
+      "image": {
+        "path": "/assets/images/highlight_volcano.png",
+        "alt": "Vulcanoes"
+      },
+      "text": "Volcanic conditions can change at any time.",
+      "title": "Vulcanoes"
+    }
+  ],
+  "travelsData": {
+    "categoriesData": [
+      {
+        "title": "Adventure"
+      },
+      {
+        "title": "Culinary"
+      },
+      {
+        "title": "Eco-tourism"
+      },
+      {
+        "title": "Family"
+      },
+      {
+        "title": "Sport"
+      }
+    ],
+    "guidesData": [
+      {
+        "title": {
+          "main": "Hadwin Malone",
+          "sub": "Guide since 2012"
+        },
+        "imagePath": "/assets/images/profile_image.png",
+        "buttonText": "Contact"
+      }
+    ]
+  }
+}

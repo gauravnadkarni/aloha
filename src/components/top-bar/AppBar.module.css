@@ -1,0 +1,22 @@
+.menuBlockContainer {
+  padding: 1.5rem;
+}
+
+.menuLeftBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuLeftBlockGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menuRightBlock {
+  display: flex;
+  justify-content: flex-end;
+}
