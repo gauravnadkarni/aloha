@@ -87,5 +87,8 @@
         "buttonText": "Contact"
       }
     ]
+  },
+  "footerData": {
+    "image": "/assets/images/footer_image.png"
   }
 }
