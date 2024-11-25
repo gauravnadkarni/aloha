@@ -7,7 +7,7 @@ export interface FooterProps {
 const FooterBox: FC<FooterProps> = ({image}) => {
   return (
     <>
-      <div className="w-full p-4">
+      <div className="w-full p-4" data-testid="footer-box">
         <img src={image} alt="" />
       </div>
     </>
