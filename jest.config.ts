@@ -10,6 +10,9 @@ const config: Config = {
   },
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"], // Setup for jest-dom
   testPathIgnorePatterns: ["/node_modules/", "/dist/"], // Ignore these folders
+  //collectCoverage: true,
+  //collectCoverageFrom: ["src/**/*.{ts,tsx}", "!src/**/*.d.ts"],
+  //coverageDirectory: "coverage",
 };
 
 export default config;
