@@ -21,7 +21,7 @@ const DataProvider: React.FC<DataProviderProps> = ({
   categoriesBoxProps,
   guidesBoxProps,
   footerProps,
-  children
+  children,
 }) => {
   return (
     <DataContext.Provider
@@ -32,7 +32,7 @@ const DataProvider: React.FC<DataProviderProps> = ({
         guidesBoxProps,
         footerProps,
       }}>
-        {children}
+      {children}
     </DataContext.Provider>
   );
 };

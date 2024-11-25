@@ -61,10 +61,7 @@ function App() {
           categories: categoriesBoxProps,
         }}
       />
-      <FooterBlockWithColor
-        color="#001A1A"
-        image={footerProps.image}
-      />
+      <FooterBlockWithColor color="#001A1A" image={footerProps.image} />
     </div>
   );
 }

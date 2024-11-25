@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import {CssBaseline, ThemeProvider} from "@mui/material";
 import theme from "./helpers/theme";
 import DataProvider from "./providers/DataProvider";
-import { TitleBoxProps } from "./components/top-bar/TitleBox";
+import {TitleBoxProps} from "./components/top-bar/TitleBox";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -21,16 +21,15 @@ root.render(
       titleBoxProps={
         {
           ...DATA.titleBoxData,
-          appBarConfig:{
+          appBarConfig: {
             ...DATA.titleBoxData.appBarConfig,
             onClickOfItem: (e: React.MouseEvent<HTMLButtonElement>) => {
               console.log(e);
-            }
-          }
+            },
+          },
         } as TitleBoxProps
       }
-      footerProps={DATA.footerData}
-    >
+      footerProps={DATA.footerData}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <App />
