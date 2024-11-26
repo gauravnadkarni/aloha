@@ -1,3 +1,5 @@
 ##Sample Aloha App
 
-![Screenshot](public/assets/images/screenshot.png)
+![Full Screen](public/assets/images/screenshot1.png)
+![Mobile](public/assets/images/screenshot2.png)
+![Menu Opened](public/assets/images/screenshot3.png)
